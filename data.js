@@ -1,13 +1,13 @@
 const productData = [
   {
-    name: "TEST1",
-    category: "Toode1",
+    name: "Kodune hakkliha 500 g MAKS & MOORITS",
+    category: "Hakkliha",
     prices: {
-      Rimi: 1.79,
-      Coop: 1.99,
-      Selver: 1.95,
-      Lidl: 1.91,
-      Prisma: 1.90,
+      Rimi: 2.99,
+      Coop: 3.55,
+      Selver: 3.55,
+      Lidl: ,
+      Prisma: 3.55,
     },
     lastUpdated: "2024-11-28"
   },
