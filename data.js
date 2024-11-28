@@ -52,5 +52,17 @@ const productData = [
     },
     lastUpdated: "2024-11-28"
   },
+  {
+    name: "Kaerasepik 300 g EESTI PAGAR",
+    category: "Leivad, saiad, kondiitritooted",
+    prices: {
+      Rimi: 1.15,
+      Coop: 1.15,
+      Prisma: 1.15,
+    },
+    lastUpdated: "2024-11-28"
+  },
+
+
 
 ];
