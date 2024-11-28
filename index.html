@@ -9,7 +9,6 @@
 <body>
   <div class="container">
     <h1>Toodete - Hinnavõrdleja</h1>
-    
     <!-- Kategooriate menüü -->
     <div id="categories">
       <button onclick="filterProducts('Kõik')">Kõik</button>
@@ -23,60 +22,7 @@
     <p id="last-updated"></p>
   </div>
 
-  <script src="data.js"></script> <!-- Ensure this is correctly loaded -->
-  <script src="script.js"></script> <!-- Ensure this is correctly loaded -->
-  <script>
-    // Function to dynamically load and display the data
-    function loadData() {
-      // Ensure that data.js is loaded
-      if (typeof data === 'undefined') {
-        console.error('data.js not loaded properly.');
-        return;
-      }
-
-      // Display the product data
-      const container = document.getElementById('products');
-      let htmlContent = '';
-      data.products.forEach(product => {
-        htmlContent += `
-          <div class="product">
-            <h3>${product.name}</h3>
-            <p>Price: ${product.price}</p>
-            <p>Store: ${product.store}</p>
-            <p>Category: ${product.category}</p>
-          </div>
-        `;
-      });
-      container.innerHTML = htmlContent;
-
-      // Display last updated time
-      const updatedTime = new Date().toLocaleTimeString();
-      document.getElementById('last-updated').innerText = `Last updated at: ${updatedTime}`;
-    }
-
-    // Filter products based on category
-    function filterProducts(category) {
-      const filteredData = category === 'Kõik' ? data.products : data.products.filter(product => product.category === category);
-      const container = document.getElementById('products');
-      let htmlContent = '';
-      filteredData.forEach(product => {
-        htmlContent += `
-          <div class="product">
-            <h3>${product.name}</h3>
-            <p>Price: ${product.price}</p>
-            <p>Store: ${product.store}</p>
-            <p>Category: ${product.category}</p>
-          </div>
-        `;
-      });
-      container.innerHTML = htmlContent;
-    }
-
-    // Initial data load
-    loadData();
-
-    // Reload data every 10 seconds
-    setInterval(loadData, 10000); // 10000ms = 10 seconds
-  </script>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
