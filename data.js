@@ -1,50 +1,56 @@
 const productData = [
   {
     name: "Kodune hakkliha 500 g MAKS & MOORITS",
-    category: "Hakkliha",
+    category: "Liha-ja kalatooted",
     prices: {
       Rimi: 2.99,
       Coop: 3.55,
       Selver: 3.55,
-      Lidl: 96,
       Prisma: 3.55,
     },
     lastUpdated: "2024-11-28"
   },
   {
-    name: "TEST2",
-    category: "Toode2",
+    name: "Seahakkliha 500 g MAKS & MOORITS",
+    category: "Liha-ja kalatooted",
     prices: {
-      Rimi: 1.15,
-      Coop: 1.90,
-      Selver: 1.98,
-      Lidl: 1.09,
-      Prisma: 1.90,
+      Rimi: 3.49,
+      Selver: 2.89,
+      Prisma: 3.19,
     },
     lastUpdated: "2024-11-28"
   },
   {
-    name: "TEST3",
-    category: "Toode3",
+    name: "Rakvere Pereviiner 500g",
+    category: "Liha-ja kalatooted",
     prices: {
-      Rimi: 1.95,
-      Coop: 1.10,
-      Selver: 1.98,
-      Lidl: 1.91,
-      Prisma: 1.90,
+      Rimi: 1.85,
+      Coop: 1.79,
+      Selver: 1.79,
+      Prisma: 2.49,
     },
     lastUpdated: "2024-11-28"
   },
   {
-    name: "TEST4",
-    category: "Toode1",
+    name: "Koduviiner 500 g MAKS & MOORITS",
+    category: "Liha-ja kalatooted",
     prices: {
-      Rimi: 1.95,
-      Coop: 1.90,
-      Selver: 1.98,
-      Lidl: 1.91,
-      Prisma: 1.00,
+      Rimi: 0.99,
+      Coop: 1.29,
+      Selver: 1.29,
+      Prisma: 0.99,
     },
     lastUpdated: "2024-11-28"
   },
+  {
+    name: "Kaerasepik, LEIBUR, 360 g",
+    category: "Leivad, saiad, kondiitritooted",
+    prices: {
+      Coop: 1.25,
+      Selver: 0.99,
+      Prisma: 1.29,
+    },
+    lastUpdated: "2024-11-28"
+  },
+
 ];
