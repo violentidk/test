@@ -62,7 +62,65 @@ const productData = [
     },
     lastUpdated: "2024-11-28"
   },
-
-
-
+  {
+    name: "Kanepiseemne leib rukkiteradega, 500 g",
+    category: "Leivad, saiad, kondiitritooted",
+    prices: {
+      Coop: 1.55,
+      Prisma: 1.29,
+  },
+  {
+    name: "Must seemneleib, 280 g FAZER",
+    category: "Leivad, saiad, kondiitritooted",
+    prices: {},
+    lastUpdated: "2024-11-28"
+  },
+  {
+    name: "Jassi seemneleib, 310 g EESTI PAGAR",
+    category: "Leivad, saiad, kondiitritooted",
+    prices: {},
+    lastUpdated: "2024-11-28"
+  },
+  {
+    name: "Must Jassi seemneleib, 310 g EESTI PAGAR",
+    category: "Leivad, saiad, kondiitritooted",
+    prices: {},
+    lastUpdated: "2024-11-28"
+  },
+  {
+    name: "Must rukkileib, 390 g EESTI PAGAR",
+    category: "Leivad, saiad, kondiitritooted",
+    prices: {},
+    lastUpdated: "2024-11-28"
+  },
+  {
+    name: "Rehe rukkileib, 390 g EESTI PAGAR",
+    category: "Leivad, saiad, kondiitritooted",
+    prices: {},
+    lastUpdated: "2024-11-28"
+  },
+  {
+    name: "Kodukandi rukkileib, 390g EESTI PAGAR",
+    category: "Leivad, saiad, kondiitritooted",
+    prices: {},
+    lastUpdated: "2024-11-28"
+  },
+  {
+    name: "Õnne sepik, 300 g EESTI PAGAR",
+    category: "Leivad, saiad, kondiitritooted",
+    prices: {},
+    lastUpdated: "2024-11-28"
+  },
+  {
+    name: "Suur Perenaise sai, 500 g EESTI PAGAR",
+    category: "Leivad, saiad, kondiitritooted",
+    prices: {},
+    lastUpdated: "2024-11-28"
+  },
+  {
+    name: "Kuldne klassikaline röstsai, 500 g LEIBUR",
+    category: "Leivad, saiad, kondiitritooted",
+    prices: {},
+    lastUpdated: "2024-11-28"
+  }
 ];
