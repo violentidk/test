@@ -6,7 +6,7 @@ const productData = [
       Rimi: 2.99,
       Coop: 3.55,
       Selver: 3.55,
-      Lidl: ,
+      Lidl: 10000,
       Prisma: 3.55,
     },
     lastUpdated: "2024-11-28"
