@@ -68,6 +68,8 @@ const productData = [
     prices: {
       Coop: 1.55,
       Prisma: 1.29,
+    },
+    lastUpdated: "2024-11-28"
   },
   {
     name: "Must seemneleib, 280 g FAZER",
