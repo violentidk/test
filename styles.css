@@ -33,6 +33,11 @@ h1 {
   font-size: 14px;
 }
 
+.product .cheapest {
+  color: green;
+  font-weight: bold;
+}
+
 #last-updated {
   text-align: center;
   margin-top: 20px;
