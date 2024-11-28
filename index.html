@@ -6,17 +6,23 @@
   <title>Toodete - Hinnavõrdleja</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-  <center><div style="border: 1px solid #ccc; padding: 10px; max-width: 300px; text-align: center;">
-  <h3>Panusta andmete korrektsusesse</h3>
-  <p>office.com keskkonnas on dokument</p>
-  <a href="https://sinu-link.ee" target="_blank" style="color: blue; text-decoration: none;">Sisesta andmed</a>
-</div></center>
 <body>
   <div class="container">
     <h1>Toodete - Hinnavõrdleja</h1>
+    
+    <!-- Kategooriate menüü -->
+    <div id="categories">
+      <button onclick="filterProducts('Kõik')">Kõik</button>
+      <button onclick="filterProducts('Toode1')">Toode1</button>
+      <button onclick="filterProducts('Toode2')">Toode2</button>
+      <button onclick="filterProducts('Toode3')">Toode3</button>
+    </div>
+
+    <!-- Toodete ala -->
     <div id="products"></div>
     <p id="last-updated"></p>
   </div>
+  
   <script src="data.js"></script>
   <script src="script.js"></script>
 </body>
